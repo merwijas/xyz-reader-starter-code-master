@@ -1,0 +1,36 @@
+<resources>
+    <!-- detail -->
+    <dimen name="detail_title_text_size">32sp</dimen>
+    <dimen name="detail_body_text_size">22sp</dimen>
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
+
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+
+    <dimen name="surface_elevation">4dp</dimen>
+
+    <dimen name="AppBar_elevation">4dp</dimen>
+
+    <dimen name="Detail_fragment_top_margin">100dp</dimen>
+
+    <dimen name="image_dimension">120dp</dimen>
+
+    <dimen name="margin_detail">56dp</dimen>
+
+    <dimen name="dimension_100">100dp</dimen>
+
+    <dimen name="TitleMarginStart">24dp</dimen>
+
+    <dimen name="contentInsetStart">72dp</dimen>
+
+    <dimen name="RecyclerViewTop">120dp</dimen>
+    <dimen name="RecyclerViewBottom">28dp</dimen>
+
+    <dimen name="Elevation_small">2dp</dimen>
+
+    <dimen name="small_margin">4dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+
+
+</resources>
