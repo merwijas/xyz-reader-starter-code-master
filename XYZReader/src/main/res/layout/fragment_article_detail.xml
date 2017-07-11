@@ -11,7 +11,7 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <FrameLayout
                 android:id="@+id/photo_container"
@@ -21,13 +21,13 @@
                 <!--suppress AndroidLintContentDescription -->
                 <ImageView
                     android:id="@+id/photo"
-                    android:layout_width="@dimen/image_dimension"
-                    android:layout_height="@dimen/image_dimension"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                      />
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/dimension_100"
+                    android:layout_height="wrap_content"
                     android:background="@drawable/photo_background_protection" />
 
             </FrameLayout>
@@ -92,7 +92,8 @@
         </FrameLayout>
     </com.example.xyzreader.ui.ObservableScrollView>
 
-    <ImageButton android:id="@+id/share_fab"
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/share_fab"
         android:stateListAnimator="@anim/fab_state_list_anim"
         android:background="@drawable/add_fab_background"
         android:layout_gravity="bottom|end"
@@ -100,6 +101,7 @@
         android:layout_marginBottom="@dimen/fab_margin"
         android:layout_width="@dimen/margin_detail"
         android:layout_height="@dimen/margin_detail"
+        app:fabSize="normal"
         android:src="@drawable/ic_share"
         android:elevation="@dimen/fab_elevation"
         android:contentDescription="@string/action_share" />
